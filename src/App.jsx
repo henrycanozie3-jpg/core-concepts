@@ -1,6 +1,7 @@
 import Welcome from './Welcome'
 import Button from './Button'
 import { Hello } from './Hello'
+import { ContactForm } from './ContractForm'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Hello/>
       <Welcome />
+      <ContactForm />
       <Button />
     </>
   )
