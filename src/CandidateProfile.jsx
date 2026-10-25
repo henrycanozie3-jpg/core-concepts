@@ -4,7 +4,7 @@ export const CandidateProfile = () => {
     const yearOfExperience = 5
    return(
    <>
-    <h2>Peter Parker</h2>
-    <p>Web Developer with 5 years of experience</p>
+    <h2>{name}</h2>
+    <p> {role} with {yearOfExperience} years of experience</p>
     </>);
 }
