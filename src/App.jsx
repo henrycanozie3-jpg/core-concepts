@@ -2,6 +2,7 @@ import Welcome from './Welcome'
 import Button from './Button'
 import { Hello } from './Hello'
 import { ContactForm } from './ContractForm'
+import { StyleForm } from './StyledForm'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Hello/>
+      <StyleForm />
       <Welcome />
       <ContactForm />
       <Button />
