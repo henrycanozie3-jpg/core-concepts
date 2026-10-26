@@ -10,6 +10,10 @@ function App() {
 
   return (
     <>
+    <Welcome />
+    <Welcome />
+    <Welcome />
+    <CandidateProfile />
       <Hello/>
       <StyleForm />
       <Welcome />
