@@ -1,15 +1,19 @@
-import Welcome from './Welcome'
-import Button from './Button'
-import { Hello } from './Hello'
-import { ContactForm } from './ContractForm'
-import { StyleForm } from './StyledForm'
-import { CandidateProfile } from './CandidateProfile'
+import Welcome from './Welcome';
+import Button from './Button';
+import { Hello } from './Hello';
+import { ContactForm } from './ContractForm';
+import { StyleForm } from './StyledForm';
+import { CandidateProfile } from './CandidateProfile';
+import { Product } from './Product';
+import { Greeting } from './Greeting';
 import './App.css'
 
 function App() {
 
   return (
     <>
+    <
+    <Product title="Gaming laptop" price={1200} inStock={true} categories={['Electronics', 'Computers', "Gaming"]} />
     <Welcome name="Bruce" alias="Batman" />
     <Welcome name="Clark" alias="Superman" />
     <Welcome name="Diana" alias="Wonder Woman" />
