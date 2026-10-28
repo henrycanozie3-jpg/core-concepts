@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-    <Welcome />
-    <Welcome />
-    <Welcome />
+    <Welcome name="Bruce" alias="Batman" />
+    <Welcome name="Clark" alias="Superman" />
+    <Welcome name="Diana" alias="Wonder Woman" />
     <CandidateProfile />
       <Hello/>
       <StyleForm />
