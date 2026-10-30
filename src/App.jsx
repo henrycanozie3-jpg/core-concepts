@@ -6,12 +6,16 @@ import { StyleForm } from './StyledForm';
 import { CandidateProfile } from './CandidateProfile';
 import { Product } from './Product';
 import { Greeting } from './Greeting';
+import { CardWrapper } from './CardWrapper';
 import './App.css'
 
 function App() {
 
   return (
     <>
+    <CardWrapper title=" User Profile">
+      
+    </CardWrapper>
     <Greeting name="Bruce" message="Goodmorning" />
      <Greeting name="Clark"/>
       <Greeting message="Welcome"/>
