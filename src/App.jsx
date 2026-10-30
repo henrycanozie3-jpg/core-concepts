@@ -12,7 +12,10 @@ function App() {
 
   return (
     <>
-    <
+    <Greeting name="Bruce" message="Goodmorning" />
+     <Greeting name="Clark"/>
+      <Greeting message="Welcome"/>
+       <Greeting />
     <Product title="Gaming laptop" price={1200} inStock={true} categories={['Electronics', 'Computers', "Gaming"]} />
     <Welcome name="Bruce" alias="Batman" />
     <Welcome name="Clark" alias="Superman" />
