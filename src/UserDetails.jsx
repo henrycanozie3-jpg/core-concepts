@@ -2,22 +2,17 @@ export const UserDetails = ({name, isOnline, hideOffline}) => {
 if (hideOffline && !isOnline){
     return null;
 }
-    if (isOnline){
     return (
-        <div>
-<h3> {name} </h3>
-<span>Online</span>
-<p>Available for chat</p>
-<button>Send Message</button>
-        </div>
-    );
-}
-return (
     <div>
         <h3> {name} </h3>
-        <span>Offline</span>
-        <p>Not available</p>
-        <small>Check back later</small>
+        <span> {isOnline ? "Online " : "Offline"} </span>
+        <p> {isOnline ? "Available for chat " : "No available"} </p>
+        {isOnline ? (
+        <button>Send Message</button>)
+        : (
+            <small> Check back later </small>
+        )
+    }
     </div>
 );
-}
+};
