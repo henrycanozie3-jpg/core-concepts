@@ -14,7 +14,9 @@ function App() {
   return (
     <>
     <CardWrapper title=" User Profile">
-      
+      <p>Bruce</p>
+      <p>batman@jl.com</p>
+      <button>Edit Profile</button>
     </CardWrapper>
     <Greeting name="Bruce" message="Goodmorning" />
      <Greeting name="Clark"/>
