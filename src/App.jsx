@@ -7,12 +7,15 @@ import { CandidateProfile } from './CandidateProfile';
 import { Product } from './Product';
 import { Greeting } from './Greeting';
 import { CardWrapper } from './CardWrapper';
+import { UserDetails } from './UserDetails';
 import './App.css'
 
 function App() {
 
   return (
     <>
+    <UserDetails name="Bruce Wayne" isOnline={true} />
+    <UserDetails name="Clark Kent" isOnline={false} />
     <CardWrapper title=" User Profile">
       <p>Bruce</p>
       <p>batman@jl.com</p>

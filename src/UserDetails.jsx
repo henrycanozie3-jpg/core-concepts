@@ -1,6 +1,6 @@
 export const UserDetails = ({name, isOnline}) => {
     return (
-<div>UserDetails
+<div>
 <h3>{name} </h3>
 <p> {isOnline} </p>
 </div>
