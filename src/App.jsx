@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <UserDetails name="Bruce Wayne" isOnline={true} />
+    <UserDetails name="Bruce Wayne" isOnline={true} isPrenium={true} isNewUser={true} />
     <UserDetails name="Clark Kent" isOnline={false} hideOffline={true} />
     <CardWrapper title=" User Profile">
       <p>Bruce</p>

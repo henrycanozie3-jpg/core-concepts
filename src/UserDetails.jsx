@@ -1,10 +1,13 @@
-export const UserDetails = ({name, isOnline, hideOffline}) => {
+export const UserDetails = ({name, isOnline, hideOffline, isPrenium, isNewUser}) => {
 if (hideOffline && !isOnline){
     return null;
 }
     return (
     <div>
-        <h3> {name} </h3>
+        <h3> {name}
+            {isPrenium && <span> (Premium)  </span>} 
+            {isNewUser && <span> (New User) </span>}
+        </h3>
         <span> {isOnline ? "Online " : "Offline"} </span>
         <p> {isOnline ? "Available for chat " : "No available"} </p>
         {isOnline ? (
